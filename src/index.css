@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-[#e9eaec] text-neutral-900 dark:bg-[#0c0c0e] dark:text-neutral-100;
+  -webkit-font-smoothing: antialiased;
+}
+
+.glass {
+  @apply bg-white/40 dark:bg-white/5 backdrop-blur-xl border border-white/50 dark:border-white/10;
+}
